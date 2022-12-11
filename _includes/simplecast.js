@@ -1,4 +1,4 @@
-console.log("LOADED")
+console.log("LOADED");
 await fetch("https://api.simplecast.com/podcasts/78b51594-83c1-40e7-a2c0-2c8738d204fb/seasons", {
     "credentials": "omit",
     "headers": {
