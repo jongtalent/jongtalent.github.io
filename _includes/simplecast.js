@@ -1,5 +1,5 @@
 console.log("LOADED");
-await fetch("https://api.simplecast.com/podcasts/78b51594-83c1-40e7-a2c0-2c8738d204fb/seasons", {
+await fetch("https://api.simplecast.com/podcasts/{{ site.simplecast_podcast_id }}/seasons", {
     "credentials": "omit",
     "headers": {
         "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:88.0) Gecko/20100101 Firefox/88.0",
